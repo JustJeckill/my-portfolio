@@ -6,23 +6,68 @@
     <title>Vite App</title>
   </head>
   <body>
-      <header class="header"></header>
-      <main class="main">
-        <div class="home">
-          <h2 class="home__title">Home</h2>
-        </div>
-        <div class="introduction">
-          <h2 class="introduction__title">Introduction</h2>
-        </div>
-        <div class="projects">
-          <h2 class="projects__title">Projects</h2>
-        </div>
-        <div class="skills">
-          <h2 class="skills__title">Skills</h2>
-        </div>
-      </main>
-      <footer class="footer"></footer>
+      <div class="container">
+        <div class="container__wrapper">
+          <div class="container__inner">
+              <div class="column column_small">
+                <div class="summary">
+                  <h1 class="summary__fullname">Yevhen Duplenko</h1>
+                  <div class="summary__position">Front-end developer</div>
+                  <h3 class="summary__title">About me</h3>
+                  <p class="summary__text">I’m a front-end developer with 4 years of experience, constantly improving my skills and eager to embrace new challenges. I specialize in building clean, efficient, and scalable code for dynamic web applications.</p>
+                  <div class="summary__links">
+                    <a href="#" class="button summary__button summary__button_primary">Learn more</a>
+                    <a href="#contact" class="button summary__button summary__button_secondary">Let’s Talk</a>
+                  </div>
+                  <div class="summary__copyright">
+                    © 2024 prostotak.design • All rights reserved
+                    <span class="summary__copyright-agency">SLOVO. AGENCY</span>
+                  </div>
+                </div>
+              </div>
+              <div class="column column_large">
+                <header class="header">
+                  <nav class="header-navigation">
+                    <div class="header-navigation__link">
+                      <a href="#" class="header-navigation__link-text">About me</a>
+                    </div>
+                    <div class="header-navigation__link">
+                      <a href="#" class="header-navigation__link-text">Projects</a>
+                    </div>
+                    <div class="header-navigation__link">
+                      <a href="#" class="header-navigation__link-text">What I use</a>
+                    </div>
+                    <div class="header-navigation__link">
+                      <a href="#" class="header-navigation__link-text">Contact</a>
+                    </div>
+                  </nav>
+                  <div class="header-social">
+                    <div class="header-social__link">
+                      <a href="#" class="header-social__link-icon image">About me</a>
+                    </div>
+                    <div class="header-social__link">
+                      <a href="#" class="header-social__link-icon image">Projects</a>
+                    </div>
+                    <div class="header-social__link">
+                      <a href="#" class="header-social__link-icon image">What I use</a>
+                    </div>
+                  </div>
+                </header>
+                <main class="main">
+                  <div id="contact" class="contact">
+                    <div class="wrapper">
+                      <h2 class="contact__title">Let’s talk</h2>
+                      <form class="contact__form">
 
+                      </div>
+                    </div>
+                  </div>
+                </main>
+                <footer class="footer"></footer>
+              </div>
+          </div>
+        </div>
+      </div>
 
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
